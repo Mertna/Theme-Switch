@@ -1,0 +1,51 @@
+<html lang="ja"><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<link  href="./default-light.css" rel="stylesheet" id="theme">
+
+<script> if(parent.theme == "dark"){ document.querySelector("#theme").href = "default-dark.css"; }</script>
+
+</head><body>
+
+<table id="menu" style="width:100%;" cellspacing="0" cellpadding="1" border="1">
+
+	<colgroup>
+		<col><col><col>
+	</colgroup>
+	
+	<tbody>
+	
+		<tr style=""><th colspan="1" style="border:1px solid;">-Just testing themes using localstorage !-</th>	</tr>
+			<tr class="l" style="height:30px"><td class="g" rowspan="1"></td></tr>	
+			<tr class="sep" style=""></tr>
+			
+			<tr class="l"><td class="s"><div class="field" style="height:100%; line-height:2.1;">
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+			</div></td></tr>
+
+			<tr class="sep" style=""></tr>
+			<tr class="l" style="height:5px"><td class="g" rowspan="1"></td></tr>
+			<tr class="sep" style=""></tr>
+			
+			<tr class="l"><td class="s"><div class="field" style="height:100%; line-height:2.1;">
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+				 • Just testing <var id="x"></var> ! <br> • Just testing <var id="x"></var> ! <br>
+			</div></td></tr>
+			
+			<tr class="sep" style=""></tr>
+			<tr class="l" style="height:30px"><td class="g" rowspan="1"></td></tr>
+	
+	</tbody>
+</table>
+
+<script> document.querySelectorAll("#x").forEach(x => { x.textContent = parent.theme + " mode"; }); </script>
+
+</body>
+</html>
