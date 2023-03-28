@@ -3,7 +3,7 @@
 	var theme = "light";
 	
 	function onInit(){
-		if (localStorage.getItem("theme") == null) { localStorage.setItem("theme", theme); }
+		if (localStorage.getItem("theme") != "light" && localStorage.getItem("theme") != "dark") { localStorage.setItem("theme", theme); }
 		if (localStorage.getItem("theme") == "dark") { toggleTheme(); }
 	};
 	
